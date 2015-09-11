@@ -1,0 +1,13 @@
+Task Summary, Description, Story Points, AC, Epic Link
+"email headers",https://github.com/sendgrid/sendgrid-python/issues/120
+"Substitutions with template engine",https://github.com/sendgrid/sendgrid-python/issues/117
+"publish conda package to https://binstar.org/",https://github.com/sendgrid/sendgrid-python/issues/113
+"Test for library version",https://github.com/sendgrid/sendgrid-python/issues/111
+"Allow setting Friendly Name for the Reply-To header",https://github.com/sendgrid/sendgrid-python/issues/110
+"SendGrid Library misses timeout via URLError",https://github.com/sendgrid/sendgrid-python/issues/104
+"AttributeError: Mail instance has no attribute '__len__'",https://github.com/sendgrid/sendgrid-python/issues/103
+"Unicode email address",https://github.com/sendgrid/sendgrid-python/issues/100
+"Added support for unicode email addresses",https://github.com/sendgrid/sendgrid-python/pull/119
+"Tb testing",https://github.com/sendgrid/sendgrid-python/pull/115
+"Use persistent HTTP requests by default.",https://github.com/sendgrid/sendgrid-python/pull/109
+"Upgrade Mail to new-style class, on Python 2.x.",https://github.com/sendgrid/sendgrid-python/pull/106
