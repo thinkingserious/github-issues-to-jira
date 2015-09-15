@@ -25,11 +25,18 @@ class JiraConnector(object):
     def issues(self):
         return self._issues
     
+    def get_issue(self, issue_id):
+        issue = self.jira.issue(issue_id)
+        return issue
+    
     def get_issues(self, userid):
         self._issues = self.jira.search_issues('assignee=' + userid)
         return self.issues
         
     def add_comment(self, issue_id, comment):
-        issue = self.jira.issue(issue_id)
+        issue = self.jira.get_issue(issue_id)
         result = self.jira.add_comment(issue, comment)
         return result
+        
+    def create_issue(self, project_key, summary, description, issuetype):
+        new_issue = self.jira.create_issue(project=project_key, summary=summary, description=description, issuetype=issuetype)
